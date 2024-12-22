@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: rgb(198, 79, 79);
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.purple {
+    background-color: rgb(167, 78, 167);
+}
+
+.flashBtn {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+    margin-top: 20px;
+    color: #444;
+}
+
+h2 , h3 {
+    font-family: "Verdana", sans-serif;
+    color: #555;
+    margin: 10px;
+}
